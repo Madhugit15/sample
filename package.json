@@ -1,7 +1,7 @@
 {
   "name": "madhu_color_picker",
   
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "madhu_color_picker": "^1.0.3",
+    "madhu_color_picker": "^1.0.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
@@ -26,7 +26,7 @@
     "vite": "^6.3.5"
   },
   "description": "colorpicker",
-  "main": "app.jsx",
+  "main": "dist/app.jsx",
   "author": "Madhu",
   "license": "ISC"
 }
