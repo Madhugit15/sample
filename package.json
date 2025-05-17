@@ -1,16 +1,18 @@
 {
   "name": "madhu_color_picker",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
-  "main": "dist/madhu-color-picker.cjs.js",
-  "module": "dist/madhu-color-picker.es.js",
+  "main": "dist/madhu-color-picker.cjs",
+  "module": "dist/madhu-color-picker.js",
   "exports": {
     ".": {
-      "import": "./dist/madhu-color-picker.es.js",
-      "require": "./dist/madhu-color-picker.cjs.js"
+      "import": "./dist/madhu-color-picker.js",
+      "require": "./dist/madhu-color-picker.cjs"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -18,6 +20,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "madhu_color_picker": "^1.0.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
