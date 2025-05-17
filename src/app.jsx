@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-function App() {
+function ColorPicker() {
   const [color, setColor] = useState('#ff0000'); // Default color: red
 
   const handleColorChange = (e) => {
@@ -30,4 +30,4 @@ function App() {
   );
 }
 
-export default App;
+export default ColorPicker;
