@@ -1,0 +1,24 @@
+name: "🚀 publish"
+
+on:
+    push:
+        branches:
+         - main
+
+jobs:
+    release:
+        name: 🚀 publish
+        runs-on: ubuntu-latest
+        steps:
+            - name: 📚 checkout
+              uses: actions/checkout@v4
+            - name: 🟢 node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20.x"
+                  registry-url: https://registry.npmjs.org
+            - name: 🚀 publish
+              run: npm publish --access public
+              working-directory: sample_package_publish
+              env:
+                  NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
