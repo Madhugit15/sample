@@ -1,7 +1,7 @@
 {
   "name": "madhu_color_picker",
   
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "madhu_color_picker": "^1.0.2",
+    "madhu_color_picker": "^1.0.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
