@@ -1,6 +1,6 @@
 {
-  "name": "madhu_color_picker",
-  "version": "1.0.6",
+  "name": "madhu-color-picker",
+  "version": "1.0.7",
   "type": "module",
   "main": "dist/madhu-color-picker.cjs",
   "module": "dist/madhu-color-picker.js",
@@ -20,7 +20,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "madhu_color_picker": "^1.0.5",
+    "madhu-color-picker": "^1.0.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
