@@ -8,12 +8,10 @@ Run `npm i madhu-color-picker-react`
 
 ## USE
 
-import ColorPicker from "madhu-color-picker-react"
+type ` import ColorPicker from "madhu-color-picker-react"`
 
-function App (){
-    return <ColorPicker/>
-}
+`function App (){`
+` return <ColorPicker/>`
+`}`
 
-export default App;
-
-
+`export default App`
