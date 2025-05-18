@@ -9,7 +9,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/app.jsx'),
       name: 'MadhuColorPicker',
-      fileName: (format) => `madhu-color-picker.${format}.js`,
+      fileName: (format) => `madhu-color-picker-react.${format}.js`,
       formats: ['es', 'cjs'],
     },
     rollupOptions: {

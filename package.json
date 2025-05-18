@@ -1,13 +1,13 @@
 {
-  "name": "madhu-color-picker",
-  "version": "1.0.8",
+  "name": "madhu-color-picker-react",
+  "version": "1.0.9",
   "type": "module",
-  "main": "dist/madhu-color-picker.cjs",
-  "module": "dist/madhu-color-picker.js",
+  "main": "dist/madhu-color-picker.cjs.js",
+  "module": "dist/madhu-color-picker-react.es.js",
   "exports": {
     ".": {
-      "import": "./dist/madhu-color-picker.js",
-      "require": "./dist/madhu-color-picker.cjs"
+      "import": "./dist/madhu-color-picker.es.js",
+      "require": "./dist/madhu-color-picker.cjs.js"
     }
   },
   "files": [
