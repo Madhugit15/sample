@@ -1,6 +1,6 @@
 {
   "name": "madhu-color-picker-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "dist/madhu-color-picker-react.cjs.js",
   "module": "dist/madhu-color-picker-react.es.js",
